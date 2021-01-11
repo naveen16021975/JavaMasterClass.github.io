@@ -8,7 +8,7 @@ public class MoveAllZerosToEnd {
 
         int slow =0;
         int fast =0;
-        // {0,0,1,2,0,5,6,7,0}
+
         while(fast < arr.length){
             if(arr[fast] == 0){
                 fast++;

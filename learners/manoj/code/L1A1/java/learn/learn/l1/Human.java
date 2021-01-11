@@ -1,4 +1,4 @@
-package learn;
+package learn.l1;
 
 public class Human {
 
@@ -47,7 +47,7 @@ public class Human {
                     reduceCash(5);
                     break;
                 case DIVORSE:
-                    reduceCash(1);                    
+                    reduceCash(50);                    
                     reduceAssets(50);
                     break;
                 default:

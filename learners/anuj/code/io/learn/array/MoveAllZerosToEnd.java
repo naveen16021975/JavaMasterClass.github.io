@@ -2,6 +2,9 @@ package io.learn.array;
 
 import java.util.Arrays;
 
+/**
+ * Solution to MoveZerosToend Assignment
+ */
 public class MoveAllZerosToEnd {
 
     public void moveZeros(int arr[]) {

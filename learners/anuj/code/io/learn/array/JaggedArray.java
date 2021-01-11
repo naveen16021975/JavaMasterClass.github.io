@@ -1,13 +1,19 @@
 package io.learn.array;
 
 import java.util.Arrays;
+import java.util.stream.IntStream;
 
 public class JaggedArray {    
     public static void main(String[] args) {
         
         // create int array literal
         int[] profits = {400, 800, 600, 100, 200, 300, 700};
-        printArray(profits);        
+        printArray(profits);
+
+        // binary search in an int array        
+        int[] javaVersions = {1,2,3,5,7,8,9,11,12,13,14,15};
+        printArray(javaVersions);
+        System.out.printf("%d", Arrays.binarySearch(javaVersions, 3));    
         
         /**  Array of Array */
         String[][] names = {
@@ -34,7 +40,10 @@ public class JaggedArray {
 
         // Arrays class
         int i = Arrays.mismatch(dayProfit, weekendProfilt);
-        System.out.printf("%s %d %d%n", "Mismatch", dayProfit[i], weekendProfilt[i]);
+        if(i > 0)
+            System.out.printf("%s %d %d%n", "Mismatch", dayProfit[i], weekendProfilt[i]);
+        else
+            System.out.println("No Mismatch");
 
         // fill array
          int[] dval = new int[20];
@@ -55,8 +64,10 @@ public class JaggedArray {
          Arrays.parallelSort(rval);
          Arrays.stream(rval).filter(e -> e % 2 != 0).forEach(v ->  { System.out.print(v + " ");});
 
-        // util methods
-        // IntStream.range(1, 100).forEach(System.out::println);
+        // util methods to generage steam of fixed length
+         IntStream.range(1, 100).forEach(System.out::println);
+        
+        // util methods to generage steam of infi steam
         // IntStream.generate(() -> (int)(Math.random() * 1000)).forEach(System.out::println);
     }
 

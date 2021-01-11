@@ -48,13 +48,17 @@ public class Basics {
     }
  
     public static void main(String[] args) {
-        // System.out.printf("%s %d%n", "Static variable", oneAndonly);
-        // new Basics();
-        // new Basics(5);
 
-        // Basics b = new Basics(10);
-        // b.moveUp(1);
-        // System.out.printf("%s %d%n", "Id ", b.id);
+         System.out.printf("%s %d%n", "Static variable", oneAndonly);
+        
+        // Create instance of a class
+         // new Basics();
+        // new Basics(5);
+        Basics b = new Basics(10);
+
+        // calling methods on object of a class
+        b.moveUp(1);
+        System.out.printf("%s %d%n", "Id ", b.id);
 
         // b.moveUp(2.4f);
         // System.out.printf("%s %f %n", "weight", b.getWeigth());
@@ -62,31 +66,26 @@ public class Basics {
         // b.moveUp(1,2);
         // System.out.printf("%s %d%n", "Id (vararg)", b.id);
 
-         // Declare an object
-         Hero h;
+        // Declare an object
+        Hero h;
 
         // Instantiation of an Object
          h = new Hero();
 
-         // using assertions to check your code
+        // using assertions to check your code
         // // use -ea flag to run assertaions
         assert(h.planet == "Earth");
-        // System.out.println(h.planet);
+        System.out.println(h.planet);
 
-         Hero ancientHero = new Hero("Stone Weapons");
-         System.out.println(ancientHero);
+        Hero ancientHero = new Hero("Stone Weapons");
+        System.out.println(ancientHero);
 
-        // Instantiation of an Object of Inner class
-         Hero.Weapon w = h.new Weapon();
-         System.out.println(w.getMaxDamage());
+        // Instantiation of an Object of Nested class
+        Hero.Weapon w = h.new Weapon();
+        System.out.println(w.getMaxDamage());
 
-        // Calling method
-         w.powerUp(1);
-         System.out.println(w.getMaxDamage());
-
-        //  // HelloWorld Inteface
-        //  interface HelloWorld {
-        //      public void greet();
-        //      public void greetSomeone(String someone);
+        // Calling method on nested class object
+        w.powerUp(1);
+        System.out.println(w.getMaxDamage());
     }
 }

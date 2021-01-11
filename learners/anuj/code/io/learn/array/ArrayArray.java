@@ -13,7 +13,8 @@ public class ArrayArray {
         top2p[0] = 1_442_221_768; // china
         top2p[1] = 1_380_004_385; // india
 
-        long totalp = 0l;
+        // change to long type to get correct result
+        int totalp = 0;
 
         for(int i: top2p)
             totalp += i;

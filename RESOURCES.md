@@ -1,5 +1,9 @@
-layout: page
-title: "References and Helpful Resources"
-permalink: /resources/
+---
+layout: default
+---
+### Books
 
-[Resources](https://javamasterclass.github.io/resources)
+### Tutorials
+
+### FAQs
+

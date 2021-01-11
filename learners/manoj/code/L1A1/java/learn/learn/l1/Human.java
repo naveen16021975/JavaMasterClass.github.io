@@ -81,7 +81,7 @@ public class Human {
 
         Human h = new Human("Robin",'M',100,500f);
         Human.Spouse spouse = h.new Spouse();        
-        //spouse.goodSpouse("BIRTHDAY");
+        spouse.goodSpouse("DIVORSE");
         spouse.goodSpouse("FIGHT");
         System.out.println(h);
 

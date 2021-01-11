@@ -1,7 +1,6 @@
 package io.learn.array;
 
 import java.util.Arrays;
-import java.util.stream.IntStream;
 
 public class JaggedArray {    
     public static void main(String[] args) {

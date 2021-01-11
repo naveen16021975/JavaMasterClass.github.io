@@ -1,6 +1,7 @@
 ## Welcome to Java Master Class 2021
 
-![HomePage Banner](https://JavaMasterClass.github.com/images/coding_assignment_home.jpeg)
+![HomePage Banner](https://github.com/JavaMasterClass/JavaMasterClass.github.io/blob/master/images/coding_assignment_home.jpeg)
+
 
 You can use the [editor on GitHub](https://github.com/JavaMasterClass/JavaMasterClass.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 

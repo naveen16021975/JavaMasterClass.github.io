@@ -7,7 +7,7 @@
 #### L1A1
 * `Class`: Create a top level class Human with properties (name, gender, cash, assets).
 * `Class`: Create a nested class Spouse.
-* Create methods in wife to act on Out class Human properies.
+* Create methods in class Spouse to act on Outer class Human properies.
 * `Method`: `int goodSpouse(String event) {}`
 * `Params`: Event {'birthday': reduce cash by 1%, 'anniversary': reduce cash by 2%, 'fight': reduce cash by 5%, 'divorse': reduce cash and assets by half.
 * `Return value`: cash
@@ -30,6 +30,6 @@
 * `params`: Type {'random': random numbers in range 0 to value, 'fill': fill with value, 'sort': assending if value is positive else decending}
 
 ### Reference
-- [Resources](/resources)
+- [Resources](./resources.html).
 - [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Jekyll Themes documentation](https://docs.github.com/categories/github-pages-basics/)

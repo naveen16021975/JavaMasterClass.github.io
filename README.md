@@ -14,6 +14,7 @@
 * `Method`: `int goodSpouse(String... event) {}`
 * Overloaded method accepting 0 or more events
 
+***
 
 ### Assignment Lecture 2 (L2)
 #### L2A1
@@ -28,6 +29,8 @@
 * Generate int[] of specified type
 * `int[] generate(int size, int value, String type)`
 * `params`: Type {'random': random numbers in range 0 to value, 'fill': fill with value, 'sort': assending if value is positive else decending}
+
+***
 
 ### Reference
 - [Resources](./RESOURCES.html)

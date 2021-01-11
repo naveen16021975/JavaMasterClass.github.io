@@ -1,7 +1,6 @@
 ## Welcome to Java Master Class 2021
 
- ![Keep Calm and Write Code](https://github.com/JavaMasterClass/JavaMasterClass.github.io/blob/master/site/images/coding_assignment_home.jpeg)
- ![Java Class](https://pristinetechschool.com/wp-content/uploads/2018/05/java-banner.png)
+ ![Java](http://starbridgepartners.com/wp-content/uploads/2019/10/Java-banner-002-e1572444968364-900x350.jpg)
  
 
 ### Assignment Lecture 1

@@ -61,11 +61,11 @@ public class JaggedArray {
 
         // faster sort on multiple cpu machines
         // new in jdk 8
-         Arrays.parallelSort(rval);
-         Arrays.stream(rval).filter(e -> e % 2 != 0).forEach(v ->  { System.out.print(v + " ");});
+        Arrays.parallelSort(rval);
+        Arrays.stream(rval).filter(e -> e % 2 != 0).forEach(v ->  { System.out.print(v + " ");});
 
         // util methods to generage steam of fixed length
-         IntStream.range(1, 100).forEach(System.out::println);
+        // IntStream.range(1, 100).forEach(System.out::println);
         
         // util methods to generage steam of infi steam
         // IntStream.generate(() -> (int)(Math.random() * 1000)).forEach(System.out::println);

@@ -63,8 +63,8 @@ public class Basics {
         // b.moveUp(2.4f);
         // System.out.printf("%s %f %n", "weight", b.getWeigth());
 
-        // b.moveUp(1,2);
-        // System.out.printf("%s %d%n", "Id (vararg)", b.id);
+        b.moveUp(1,2,3,2,1,4,6);
+        System.out.printf("%s %d%n", "Id (vararg)", b.id);
 
         // Declare an object
         Hero h;
@@ -77,15 +77,15 @@ public class Basics {
         assert(h.planet == "Earth");
         System.out.println(h.planet);
 
-        Hero ancientHero = new Hero("Stone Weapons");
-        System.out.println(ancientHero);
+        // Hero ancientHero = new Hero("Stone Weapons");
+        // System.out.println(ancientHero);
 
         // Instantiation of an Object of Nested class
         Hero.Weapon w = h.new Weapon();
-        System.out.println(w.getMaxDamage());
+        System.out.printf("%s %d%n", "Maximum damage", w.getMaxDamage());
 
         // Calling method on nested class object
         w.powerUp(1);
-        System.out.println(w.getMaxDamage());
+        System.out.printf("%s %d%n", "Maximum damage after powerUp", w.getMaxDamage());
     }
 }

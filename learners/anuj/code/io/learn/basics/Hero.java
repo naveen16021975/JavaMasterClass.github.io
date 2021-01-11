@@ -28,9 +28,10 @@ public class Hero {
         }
 
         int powerUp = 2;
+        int damage = 1;
 
         public int getMaxDamage() {
-            return powerUp * damage;
+            return powerUp * Hero.this.damage;
         }
 
         public void powerUp(int p) {

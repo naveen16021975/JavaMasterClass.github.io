@@ -29,7 +29,9 @@
 * `int[] generate(int size, int value, String type)`
 * `params`: Type {'random': random numbers in range 0 to value, 'fill': fill with value, 'sort': assending if value is positive else decending}
 
-[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-[documentation](https://docs.github.com/categories/github-pages-basics/)
+### Reference
+
+[Markdown Reference][GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+[Jekyll Themes documentation](https://docs.github.com/categories/github-pages-basics/)

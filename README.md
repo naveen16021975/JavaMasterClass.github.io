@@ -2,6 +2,12 @@
 
  ![Java](http://starbridgepartners.com/wp-content/uploads/2019/10/Java-banner-002-e1572444968364-900x350.jpg)
  
+### Getting Started
+* Install Java SE 15. Mac OS: `brew install --cask oracle-jdk`
+* Install Microsoft Visual Studio code. Mac OS: `brew install --cask visual-studio-code`
+* Install Git. On Mac OS: `brew install git`
+* Create an account on Github.com
+* Get access to Masterclass repository [JavaMasterClass2021](https://github.com/JavaMasterClass/JavaMasterClass.github.io)
 
 ### Assignment Lecture 1 (L1)
 #### L1A1

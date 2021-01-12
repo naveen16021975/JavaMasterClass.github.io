@@ -37,7 +37,10 @@
 * `params`: Type {'random': random numbers in range 0 to value, 'fill': fill with value, 'sort': assending if value is positive else decending}
 
 ***
+### Guides
+* [Git](https://github.com/JavaMasterClass/JavaMasterClass.github.io/wiki/Git)
 
+***
 ### Reference
 - [Resources](./resources.html)
 - [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)

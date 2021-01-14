@@ -74,7 +74,7 @@ public class Basics {
 
         // using assertions to check your code
         // // use -ea flag to run assertaions
-        assert(h.planet == "Earth");
+        assert(h.planet == Planet.EARTH);
         System.out.println(h.planet);
 
         // Hero ancientHero = new Hero("Stone Weapons");

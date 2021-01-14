@@ -2,12 +2,12 @@ package io.learn.basics;
 
 public class Hero {
     
-    public String planet;
+    public Planet planet;
     private String secretWeapon;
     public int damage = 11;
 
     public Hero() {
-        planet = "Earth";
+        planet = Planet.EARTH;
     }
 
     // constructor chaining
@@ -16,9 +16,10 @@ public class Hero {
         secretWeapon = weapon;
     }
 
-    @Override
-    public String toString() {
-        return String.format("%s %s %s %s %s %d", "Planet", planet, "Secret Weapon", secretWeapon, "Damage", damage);
+    public Hero(Planet planet, String secretWeapon, int damage) {
+        this.planet = planet;
+        this.secretWeapon = secretWeapon;
+        this.damage = damage;
     }
 
     // Nested class
@@ -37,6 +38,11 @@ public class Hero {
         public void powerUp(int p) {
             powerUp += p;
         }
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%s %s %s %s %s %d", "Planet", planet, "Secret Weapon", secretWeapon, "Damage", damage);
     }
 
 }

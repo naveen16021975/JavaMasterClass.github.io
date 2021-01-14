@@ -34,7 +34,11 @@
 #### L2A3
 * Generate int[] of specified type
 * `int[] generate(int size, int value, String type)`
-* `params`: Type {'random': random numbers in range 0 to value, 'fill': fill with value, 'sort': assending if value is positive else decending}
+* `params`
+  * random: random numbers in range 0 to value
+  * fill: fill with value
+  * sort: assending if value is positive else decending
+
 ***
 
 ### Assignment Lecture 3 (L3)
@@ -47,11 +51,13 @@
   * Function
 
 ***
+
 ### Guides
 * [Git](https://github.com/JavaMasterClass/JavaMasterClass.github.io/wiki/Git)
 * [Lambda](https://github.com/JavaMasterClass/JavaMasterClass.github.io/wiki/Lambda)
 
 ***
+
 ### Reference
 - [Resources](https://javamasterclass.github.io/resources.html)
 - [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)

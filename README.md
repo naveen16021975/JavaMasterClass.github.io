@@ -26,7 +26,7 @@
 
 ### Assignment Lecture 2 (L2)
 #### L2A1
-* Move all zero values to the right in an int[]
+* Move all zero values end (right) in an int[]
 * `int[] moveZeros(int[] values)`
 
 #### L2A2

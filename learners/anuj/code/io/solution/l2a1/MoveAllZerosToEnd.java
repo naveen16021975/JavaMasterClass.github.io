@@ -1,9 +1,10 @@
-package io.learn.array;
+package io.solution.l2a1;
 
 import java.util.Arrays;
 
 /**
  * Solution to MoveZerosToend Assignment
+ * @author Anuj Jain
  */
 public class MoveAllZerosToEnd {
 

@@ -54,17 +54,17 @@ public class Human {
         private int goodSpouse(Event event) {
             switch(event) {
                 case BIRTHDAY:
-                    reduceCash(1);
+                    cash = updateCash(-1);
                     break;
                 case ANNIVERSARY:
-                    reduceCash(2);
+                    cash = updateCash(-2);
                     break;
                 case FIGHT:
-                    reduceCash(5);
+                    cash = updateCash(-5);
                     break;
                 case DIVORSE:
-                    reduceCash(50);                    
-                    reduceAssets(50);
+                    cash = updateCash(-50);                    
+                    assets = updateAssets(-50);
                     break;
                 default:
                     System.out.printf("%s %s%n", "Invalid event can't be processed, Valid events:", Arrays.asList(Event.values()));
@@ -72,12 +72,16 @@ public class Human {
             return cash;
         }
 
-        private void reduceCash(int percentage) {
-            cash = cash-(cash*percentage/100);
+        private int updateCash(int percentage) {
+            if(percentage == 0) return 0;
+            int delta = cash * percentage / 100;
+            return cash += delta;
         }
 
-        private void reduceAssets(int percentage) {
-            assets = assets-(assets*percentage/100);
+        private double updateAssets(int percentage) {
+            if(percentage == 0) return 0;
+            double delta = assets * percentage / 100;
+            return assets += delta;
         }
     }
 
@@ -95,6 +99,7 @@ public class Human {
         spouse.goodSpouse("ANNIVERSARY");
         assert(ramesh.cash == 9800);
         spouse.goodSpouse("BIRTHDAY", "FIGHT", "DIVORSE");
+        assert(ramesh.assets == 125000);
         System.out.println(ramesh);
     }
 

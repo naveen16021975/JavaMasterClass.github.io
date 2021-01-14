@@ -2,6 +2,10 @@ package io.solution.l1a1;
 
 import java.util.Arrays;
 
+/**
+ * Human class Solution to Lecture 1 Assignment 1
+ * @author Anuj
+ */
 public class Human {
 
     public enum Sex {
@@ -73,15 +77,11 @@ public class Human {
         }
 
         private int updateCash(int percentage) {
-            if(percentage == 0) return 0;
-            int delta = cash * percentage / 100;
-            return cash += delta;
+            return cash += percentage != 0? cash * percentage / 100 : 0;
         }
 
         private double updateAssets(int percentage) {
-            if(percentage == 0) return 0;
-            double delta = assets * percentage / 100;
-            return assets += delta;
+            return assets += percentage != 0? assets * percentage / 100 : 0;
         }
     }
 

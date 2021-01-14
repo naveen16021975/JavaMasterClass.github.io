@@ -2,6 +2,8 @@
 
  ![Java](http://starbridgepartners.com/wp-content/uploads/2019/10/Java-banner-002-e1572444968364-900x350.jpg)
  
+### [Java Master Class 2021](https://javamasterclass.github.io/)
+
 ### Getting Started
 * Install Java SE 15. Mac OS: `brew install --cask oracle-jdk`
 * Install Microsoft Visual Studio code. Mac OS: `brew install --cask visual-studio-code`

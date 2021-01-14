@@ -44,4 +44,8 @@ public class Hero {
     public String toString() {
         return String.format("%s %s %s %s %s %d", "Planet", planet, "Secret Weapon", secretWeapon, "Damage", damage);
     }
+
+    public String getSecretWeapon() {
+        return secretWeapon;
+    }
 }
